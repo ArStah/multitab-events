@@ -4,5 +4,9 @@
   "description": "Mulitab event emitter over awesome-event-emitter",
   "main": "index.js",
   "author": "Arsen Stahanov <arsen.stahanov@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/ArStah/multitab-events.git",
+  "dependencies": {
+    "awesome-event-emitter": "^0.0.1"
+  }
 }
