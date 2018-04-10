@@ -1,0 +1,8 @@
+{
+  "name": "multitab-events",
+  "version": "0.0.1",
+  "description": "Mulitab event emitter over awesome-event-emitter",
+  "main": "index.js",
+  "author": "Arsen Stahanov <arsen.stahanov@gmail.com>",
+  "license": "MIT"
+}
