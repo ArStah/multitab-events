@@ -1,12 +1,31 @@
 {
   "name": "multitab-events",
-  "version": "0.0.2",
-  "description": "Mulitab event emitter over awesome-event-emitter",
-  "main": "index.js",
+  "version": "0.0.3",
+  "description": "Mulitab event emitter over eventemitter2",
+  "main": "dist/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
   "author": "Arsen Stahanov <arsen.stahanov@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/ArStah/multitab-events.git",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "npm run unit",
+    "lint": "eslint --ext .js src",
+    "prepublish": "npm run lint & npm run build"
+  },
   "dependencies": {
-    "awesome-event-emitter": "^0.0.1"
+    "eventemitter2": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
   }
 }
