@@ -1,6 +1,6 @@
 {
   "name": "multitab-events",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mulitab event emitter over eventemitter2",
   "main": "dist/index.js",
   "files": [
@@ -12,7 +12,6 @@
   "repository": "https://github.com/ArStah/multitab-events.git",
   "scripts": {
     "build": "babel src -d dist",
-    "test": "npm run unit",
     "lint": "eslint --ext .js src",
     "prepublish": "npm run lint & npm run build"
   },
